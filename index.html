@@ -1686,7 +1686,7 @@ const HexGlobeFramework = () => {
       // Convert data URL to blob
       const blobResponse = await fetch(dataUrl);
       const blob = await blobResponse.blob();
-      const file = new File([blob], 'earth.jpg', { type: 'image/jpeg' });
+      const file = new File([blob], 'GRAY_LR_SR.jpg', { type: 'image/jpeg' });
       
       // Clone grid and load terrain
       const newGrid = grid.clone();
